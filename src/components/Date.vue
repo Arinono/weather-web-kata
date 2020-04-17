@@ -1,5 +1,7 @@
 <template>
-  <p>{{ date }}</p>
+  <p class="text-4xl uppercase">
+    {{ date }}
+  </p>
 </template>
 
 <script lang="ts">

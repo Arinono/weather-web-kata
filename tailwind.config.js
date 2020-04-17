@@ -45,12 +45,12 @@ const colors = {
   transparent: 'transparent',
 
   black: '#22292f',
-  'grey-darkest': '#3d4852',
+  'grey-darkest': '#3a3a3a',
   'grey-darker': '#606f7b',
   'grey-dark': '#8795a1',
   grey: '#b8c2cc',
   'grey-light': '#dae1e7',
-  'grey-lighter': '#f1f5f8',
+  'grey-lighter': '#f1f1f1',
   'grey-lightest': '#f8fafc',
   white: '#ffffff',
 
@@ -188,6 +188,9 @@ module.exports = {
   */
 
   fonts: {
+    body: [
+      'Nothing You Could Do'
+    ],
     sans: [
       'system-ui',
       'BlinkMacSystemFont',
@@ -245,7 +248,8 @@ module.exports = {
     '2xl': '1.5rem', // 24px
     '3xl': '1.875rem', // 30px
     '4xl': '2.25rem', // 36px
-    '5xl': '3rem' // 48px
+    '5xl': '3rem', // 48px
+    temp: '9.375rem'
   },
 
   /*
@@ -447,6 +451,7 @@ module.exports = {
   width: {
     auto: 'auto',
     px: '1px',
+    '6/8': '3px',
     1: '0.25rem',
     2: '0.5rem',
     3: '0.75rem',
@@ -506,6 +511,7 @@ module.exports = {
     16: '4rem',
     24: '6rem',
     32: '8rem',
+    40: '10rem',
     48: '12rem',
     64: '16rem',
     full: '100%',

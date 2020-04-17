@@ -1,5 +1,7 @@
 <template>
-  <p>{{ location }}</p>
+  <p class="text-2xl">
+    {{ location }}
+  </p>
 </template>
 
 <script lang="ts">

@@ -25,6 +25,6 @@ describe('Temperature', () => {
   })
 
   it('should diplay the snowflake icon', () => {
-    expect(vm.icon).toEqual('@/assets/img/snowflake.png')
+    expect(vm.icon).toEqual('/img/snowflake.png')
   })
 })

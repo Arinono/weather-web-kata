@@ -7,13 +7,18 @@
       <h1 class="pb-2">
         Dark
       </h1>
-      <weather-card />
+      <weather-card
+        :data="dark"
+        dark
+      />
     </div>
     <div class="flex flex-1 flex-col items-center">
       <h1 class="pb-2">
         Light
       </h1>
-      <weather-card />
+      <weather-card
+        :data="light"
+      />
     </div>
   </div>
 </template>
@@ -27,7 +32,21 @@ import WeatherCard from '@/components/WeatherCard.vue'
     WeatherCard
   }
 })
-export default class App extends Vue {}
+export default class App extends Vue {
+  private dark = {
+    temperature: 1,
+    date: 'Monday, 21 nov 2142',
+    location: 'Amsterdam, Netherlands',
+    season: 'winter'
+  }
+
+  private light = {
+    temperature: 5,
+    date: 'Monday, 31 oct 2048',
+    location: 'Amsterdam, Netherlands',
+    season: 'fall'
+  }
+}
 </script>
 
 <style lang="scss">

@@ -20,7 +20,7 @@ export default class Temperature extends Vue {
   @Prop({ type: String, required: true, validator: v => ['winter'].includes(v) }) readonly season!: string
 
   private get icon (): string {
-    return this.season === 'winter' ? '@/assets/img/snowflake.png' : '@/assets/img/snowflake.png'
+    return this.season === 'winter' ? '/img/snowflake.png' : '/img/snowflake.png'
   }
 }
 </script>

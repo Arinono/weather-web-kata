@@ -17,7 +17,7 @@ describe('Landscape', () => {
   describe('season', () => {
     describe('default', () => {
       it('should show the fall illustration', () => {
-        expect(vm.img).toEqual('@/assets/img/illustration_1.jpg')
+        expect(vm.img).toEqual('/img/illustration_1.jpg')
       })
     })
     describe('fall', () => {
@@ -25,7 +25,7 @@ describe('Landscape', () => {
         view.setProps({
           season: 'fall'
         })
-        expect(vm.img).toEqual('@/assets/img/illustration_1.jpg')
+        expect(vm.img).toEqual('/img/illustration_1.jpg')
       })
     })
     describe('winter', () => {
@@ -33,7 +33,7 @@ describe('Landscape', () => {
         view.setProps({
           season: 'winter'
         })
-        expect(vm.img).toEqual('@/assets/img/illustration_2.jpg')
+        expect(vm.img).toEqual('/img/illustration_2.jpg')
       })
     })
   })

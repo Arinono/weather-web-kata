@@ -3,7 +3,16 @@ import WeatherCard from '@/components/WeatherCard.vue'
 
 describe('WeatherCard', () => {
   it('should mount', () => {
-    const wrapper = shallowMount(WeatherCard)
-    expect(wrapper.text()).toBe('I should show some weather information')
+    const wrapper = shallowMount(WeatherCard, {
+      propsData: {
+        data: {
+          temperature: 1,
+          date: 'Monday, 21 nov 2142',
+          location: 'Amsterdam, Netherlands',
+          season: 'winter'
+        }
+      }
+    })
+    expect(wrapper.html()).toBeTruthy()
   })
 })

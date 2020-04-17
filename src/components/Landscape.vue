@@ -12,7 +12,7 @@ export default class Landscape extends Vue {
   @Prop({ type: String, default: 'fall', validator: v => ['fall', 'winter'].includes(v) }) readonly season!: string
 
   private get img (): string {
-    return this.season === 'fall' ? '@/assets/img/illustration_1.jpg' : this.season === 'winter' ? '@/assets/img/illustration_2.jpg' : '@/assets/img/illustration_1.jpg'
+    return this.season === 'fall' ? '/img/illustration_1.jpg' : this.season === 'winter' ? '/img/illustration_2.jpg' : '/img/illustration_1.jpg'
   }
 }
 </script>

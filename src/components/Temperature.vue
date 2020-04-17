@@ -3,10 +3,10 @@
     <div class="flex flex-col items-center">
       <img
         :src="icon"
-        class="mb-1 w-16 h-16"
+        class="mb-2 w-16 h-16"
       >
       <p class="text-2xl uppercase font-bold">
-        {{ season }}
+        winter
       </p>
     </div>
     <div

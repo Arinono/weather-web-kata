@@ -1,5 +1,5 @@
 <template>
-  <p class="text-4xl uppercase">
+  <p class="text-4xl uppercase font-bold">
     {{ date }}
   </p>
 </template>

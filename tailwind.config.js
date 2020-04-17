@@ -189,7 +189,7 @@ module.exports = {
 
   fonts: {
     body: [
-      'Nothing You Could Do'
+      'Pragati Narrow'
     ],
     sans: [
       'system-ui',

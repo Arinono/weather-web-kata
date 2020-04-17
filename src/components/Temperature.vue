@@ -5,7 +5,7 @@
         :src="icon"
         class="mb-1 w-16 h-16"
       >
-      <p class="text-2xl uppercase">
+      <p class="text-2xl uppercase font-bold">
         {{ season }}
       </p>
     </div>

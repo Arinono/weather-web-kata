@@ -1,7 +1,7 @@
 <template>
   <div
     id="app"
-    class="flex flex-col md:flex-row max-w-screen min-h-screen bg-grey py-4"
+    class="flex flex-col md:flex-row max-w-screen min-h-screen bg-grey py-4 font-body"
   >
     <div class="flex flex-1 flex-col items-center">
       <h1 class="pb-2">
@@ -51,6 +51,7 @@ export default class App extends Vue {
 
 <style lang="scss">
 @import url('//fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Pragati+Narrow:wght@400;700&display=swap');
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
